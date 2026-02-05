@@ -11,7 +11,7 @@ const Home = ({ onProductClick }) => {
     const products = [
         {
             id: 1,
-            name: 'Caffe Mocha',
+            name: 'Coffee',
             flavor: 'Deep Foam',
             price: '4.53',
             rating: '4.8',
