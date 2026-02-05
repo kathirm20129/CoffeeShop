@@ -1,0 +1,185 @@
+.tracking-screen {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.map-view {
+    flex: 1;
+    position: relative;
+    background-color: #F9F9F9;
+}
+
+.map-svg {
+    width: 100%;
+    height: 100%;
+}
+
+.tracking-overlay-header {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.icon-btn-floating {
+    width: 44px;
+    height: 44px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.tracking-bottom-sheet {
+    background-color: #FFFFFF;
+    border-radius: 24px 24px 0 0;
+    padding: 12px 24px 40px;
+    box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 20;
+}
+
+.drag-handle {
+    width: 44px;
+    height: 5px;
+    background-color: #EAEAEA;
+    border-radius: 3px;
+    margin-bottom: 24px;
+}
+
+.status-header {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.time-left {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.delivery-to {
+    font-size: 14px;
+    color: #989898;
+}
+
+.dest-addr {
+    font-weight: 600;
+    color: #2F2D2C;
+}
+
+.progress-container {
+    display: flex;
+    gap: 12px;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.progress-bar-segment {
+    flex: 1;
+    height: 4px;
+    background-color: #DFDFDF;
+    border-radius: 2px;
+}
+
+.progress-bar-segment.active {
+    background-color: #36C07E;
+}
+
+.status-card {
+    width: 100%;
+    border: 1px solid #EAEAEA;
+    border-radius: 16px;
+    padding: 16px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.status-icon-box {
+    width: 52px;
+    height: 52px;
+    border: 1px solid #EAEAEA;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.status-details h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.status-details p {
+    font-size: 12px;
+    color: #989898;
+    line-height: 1.4;
+}
+
+.courier-profile {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.courier-info {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.courier-img {
+    width: 54px;
+    height: 54px;
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.courier-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.courier-name-container h4 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.courier-name-container p {
+    font-size: 12px;
+    color: #989898;
+}
+
+.call-btn {
+    width: 54px;
+    height: 54px;
+    background-color: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2F2D2C;
+    cursor: pointer;
+}
